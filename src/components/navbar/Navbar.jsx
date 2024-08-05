@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaBasketShopping } from "react-icons/fa6";
 
 const Navbar = () => {
-  cons[(menubar, setMenu)] = useState("home");
+  const [menu, setMenu] = useState("home");
 
   return (
     <div className="navbar">
